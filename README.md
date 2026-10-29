@@ -31,7 +31,7 @@
 ## 📊 Настройки веб-аналитики (GA4)
 
 * **Идентификатор ресурса (Measurement ID):** `G-SXRLS6JNV7`
-* **Доступ Viewer выдан:** `admin@akkord-school.example` (Карпов Никита Дмитриевич)
+* **Доступ Viewer выдан:** `musicschoolakkord@gmail.com` 
 * **Часовой пояс:** (GMT+03:00) Москва
 * **Валюта:** Российский рубль (RUB)
 * **Ключевые события (Key events):** `generate_lead`, `contact_click`, `messenger_click`.
