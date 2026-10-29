@@ -51,7 +51,7 @@
         <div><b>29</b><span>средний возраст</span></div>
       </div>
     </div>
-        <div class="hero-art" style="padding:0; overflow:hidden;">
+    <div class="hero-art" style="padding:0; overflow:hidden;">
       <img src="img/hero-bg.jpg" alt="Урок музыки в школе Аккорд" style="width:100%; height:100%; object-fit:cover;">
     </div>
   </div>
@@ -85,7 +85,8 @@
   <div class="container">
     <div class="section-title"><h2>Новичок играет после 4 уроков</h2><p>Наш ученик — «Группа крови» на гитаре</p></div>
     <div class="video-wrap">
-        <video controls poster="img/video-poster.jpg" data-title="student_4_lessons"></video>
+      <!-- ИСПРАВЛЕН ТЕГ ВИДЕО (убрано дублирование закрывающего тега) -->
+      <video controls poster="img/video-poster.jpg" data-title="student_4_lessons">
         <source src="https://cdn.pixabay.com/video/2020/05/25/40130-424930032_large.mp4" type="video/mp4">
       </video>
     </div>
@@ -97,17 +98,21 @@
     <div class="section-title"><h2>Преподаватели</h2><p>12 педагогов, которые сами играют и поют</p></div>
     <div class="grid grid-3">
       <div class="card teacher">
-        <div class="avatar">А</div><h3>Анна Смирнова</h3><div class="role">Гитара, вокал</div>
+        <!-- Для Анны оставлено расширение .webp, как у вас было -->
+        <img src="img/teacher-anna.webp" alt="Анна Смирнова" style="width:84px; height:84px; border-radius:50%; object-fit:cover; margin-bottom:14px;">
+        <h3>Анна Смирнова</h3><div class="role">Гитара, вокал</div>
         <p>Опыт 8 лет. Поможет взять первый аккорд без боли в пальцах.</p>
         <button class="btn btn-outline" data-action="teacher_view" data-teacher-id="anna" data-instrument="guitar">Подробнее</button>
       </div>
       <div class="card teacher">
-        <div class="avatar">М</div><h3>Михаил Петров</h3><div class="role">Фортепиано</div>
+        <img src="img/teacher-mikhail.jpg" alt="Михаил Петров" style="width:84px; height:84px; border-radius:50%; object-fit:cover; margin-bottom:14px;">
+        <h3>Михаил Петров</h3><div class="role">Фортепиано</div>
         <p>Классика и современные аранжировки. Учит читать ноты и играть по слуху.</p>
         <button class="btn btn-outline" data-action="teacher_view" data-teacher-id="mikhail" data-instrument="piano">Подробнее</button>
       </div>
       <div class="card teacher">
-        <div class="avatar">Е</div><h3>Елена Козлова</h3><div class="role">Барабаны</div>
+        <img src="img/teacher-elena.jpg" alt="Елена Козлова" style="width:84px; height:84px; border-radius:50%; object-fit:cover; margin-bottom:14px;">
+        <h3>Елена Козлова</h3><div class="role">Барабаны</div>
         <p>Поставит ритм и координацию. Играем под любимые треки.</p>
         <button class="btn btn-outline" data-action="teacher_view" data-teacher-id="elena" data-instrument="drums">Подробнее</button>
       </div>
@@ -123,7 +128,7 @@
         <p style="margin:0 0 10px">Музыкальная школа для взрослых с 2022 года.</p>
         <p style="margin:0">614 106, г. Новоозёрск, ул. Консерваторская, д. 9<br>+7 (900) 515-15-51<br>hello@akkord-school.example</p>
         <div class="socials">
-          <a href="https://ru.pinterest.com/musicschoolakkord/" target="_blank" rel="noopener" data-social="instagram" aria-label="Instagram">📷</a>
+          <a href="https://ru.pinterest.com/musicschoolakkord/" target="_blank" rel="noopener" data-social="pinterest" aria-label="Pinterest">📌</a>
           <a href="https://vk.ru/club242705615" target="_blank" rel="noopener" data-social="vk" aria-label="ВКонтакте">🆅</a>
           <a href="https://t.me/musicschoolakkord" target="_blank" rel="noopener" data-social="telegram" aria-label="Telegram">✈️</a>
           <a href="https://www.youtube.com/@musicschoolakkord" target="_blank" rel="noopener" data-social="youtube" aria-label="YouTube">▶️</a>
