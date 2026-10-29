@@ -3,7 +3,7 @@
   'use strict';
 
   // ТЗ 4.6: debug_mode включаем только на время проверки, затем false
-  var GA_ID = 'G-XXXXXXXXXX';
+  var GA_ID = 'G-SXRLS6JNV7';
   var DEBUG = false;
 
   window.dataLayer = window.dataLayer || [];
