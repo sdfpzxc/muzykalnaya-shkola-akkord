@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Музыкальная школа «Аккорд» — играйте на гитаре, фортепиано, барабанах</title>
+  <meta name="description" content="Школа «Аккорд» учит взрослых играть на гитаре, фортепиано, барабанах, укулеле и петь. Пробный урок бесплатно. Программа «Сыграй песню к Новому году»: 8 уроков + концерт.">
+  <meta property="og:title" content="Школа «Аккорд» — играйте на гитаре, фортепиано, барабанах">
+  <meta property="og:description" content="Обучение взрослых с нуля. Пробный урок бесплатно. Программа «Сыграй песню к Новому году» — 13 900 ₽.">
+  <meta property="og:image" content="https://example.com/og-akkord.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23A03A2F'/><text x='50' y='68' font-size='60' text-anchor='middle' fill='white'>♪</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script src="js/analytics.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><span class="note">♪</span><span>АККОРД<small>музыкальная школа для взрослых</small></span></a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html" aria-current="page">Главная</a></li>
+        <li><a href="instruments.html">Инструменты</a></li>
+        <li><a href="teachers.html">Преподаватели</a></li>
+        <li><a href="prices.html">Цены</a></li>
+        <li><a href="chords.html">5 аккордов</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+    <a href="tel:+79005151551" class="header-phone">+7 (900) 515-15-51</a>
+    <button class="burger" aria-label="Меню" onclick="document.getElementById('mainNav').classList.toggle('open')">☰</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="tag">Программа «Сыграй песню к Новому году»</span>
+      <h1>8 уроков — и вы играете 3–4 песни на празднике</h1>
+      <p>Музыкальная школа «Аккорд» для взрослых 22–45 лет. Без музыкального образования — это нормально. Пробный урок бесплатно, инструмент даём в классе.</p>
+      <a href="contacts.html" class="btn btn-gold" data-event="cta_click" data-button-name="hero_trial" data-page-section="hero">Записаться на пробный урок</a>
+      <div class="hero-stats">
+        <div><b>310</b><span>учеников сейчас</span></div>
+        <div><b>12</b><span>преподавателей</span></div>
+        <div><b>9</b><span>классов</span></div>
+        <div><b>29</b><span>средний возраст</span></div>
+      </div>
+    </div>
+        <div class="hero-art" style="padding:0; overflow:hidden;">
+      <img src="img/hero-bg.jpg" alt="Урок музыки в школе Аккорд" style="width:100%; height:100%; object-fit:cover;">
+    </div>
+  </div>
+</section>
+
+<section id="instruments">
+  <div class="container">
+    <div class="section-title"><h2>Инструменты</h2><p>Индивидуальные уроки по 55 минут, инструмент — в классе</p></div>
+    <div class="grid grid-4">
+      <button class="card" data-action="instrument_select" data-instrument="guitar">
+        <div class="instrument-icon">🎸</div><h3>Гитара</h3>
+        <p>Акустическая и электро. Аккорды, бой, первые песни.</p>
+      </button>
+      <button class="card" data-action="instrument_select" data-instrument="vocal">
+        <div class="instrument-icon">🎤</div><h3>Вокал</h3>
+        <p>Постановка голоса, дыхание, репертуар под вас.</p>
+      </button>
+      <button class="card" data-action="instrument_select" data-instrument="piano">
+        <div class="instrument-icon">🎹</div><h3>Фортепиано</h3>
+        <p>С нуля или вспомнить детство. Ноты и аккорды.</p>
+      </button>
+      <button class="card" data-action="instrument_select" data-instrument="drums">
+        <div class="instrument-icon">🥁</div><h3>Барабаны</h3>
+        <p>Ритм, координация, игра в группе.</p>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="container">
+    <div class="section-title"><h2>Новичок играет после 4 уроков</h2><p>Наш ученик — «Группа крови» на гитаре</p></div>
+    <div class="video-wrap">
+        <video controls poster="img/video-poster.jpg" data-title="student_4_lessons"></video>
+        <source src="https://cdn.pixabay.com/video/2020/05/25/40130-424930032_large.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<section id="teachers">
+  <div class="container">
+    <div class="section-title"><h2>Преподаватели</h2><p>12 педагогов, которые сами играют и поют</p></div>
+    <div class="grid grid-3">
+      <div class="card teacher">
+        <div class="avatar">А</div><h3>Анна Смирнова</h3><div class="role">Гитара, вокал</div>
+        <p>Опыт 8 лет. Поможет взять первый аккорд без боли в пальцах.</p>
+        <button class="btn btn-outline" data-action="teacher_view" data-teacher-id="anna" data-instrument="guitar">Подробнее</button>
+      </div>
+      <div class="card teacher">
+        <div class="avatar">М</div><h3>Михаил Петров</h3><div class="role">Фортепиано</div>
+        <p>Классика и современные аранжировки. Учит читать ноты и играть по слуху.</p>
+        <button class="btn btn-outline" data-action="teacher_view" data-teacher-id="mikhail" data-instrument="piano">Подробнее</button>
+      </div>
+      <div class="card teacher">
+        <div class="avatar">Е</div><h3>Елена Козлова</h3><div class="role">Барабаны</div>
+        <p>Поставит ритм и координацию. Играем под любимые треки.</p>
+        <button class="btn btn-outline" data-action="teacher_view" data-teacher-id="elena" data-instrument="drums">Подробнее</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>АККОРД</h4>
+        <p style="margin:0 0 10px">Музыкальная школа для взрослых с 2022 года.</p>
+        <p style="margin:0">614 106, г. Новоозёрск, ул. Консерваторская, д. 9<br>+7 (900) 515-15-51<br>hello@akkord-school.example</p>
+        <div class="socials">
+          <a href="https://instagram.com" target="_blank" rel="noopener" data-social="instagram" aria-label="Instagram">📷</a>
+          <a href="https://vk.com" target="_blank" rel="noopener" data-social="vk" aria-label="ВКонтакте">🆅</a>
+          <a href="https://t.me" target="_blank" rel="noopener" data-social="telegram" aria-label="Telegram">✈️</a>
+          <a href="https://youtube.com" target="_blank" rel="noopener" data-social="youtube" aria-label="YouTube">▶️</a>
+        </div>
+      </div>
+      <div>
+        <h4>Меню</h4>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="instruments.html">Инструменты</a></li>
+          <li><a href="teachers.html">Преподаватели</a></li>
+          <li><a href="prices.html">Цены</a></li>
+          <li><a href="chords.html">5 аккордов</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Документы</h4>
+        <ul>
+          <li><a href="privacy.html">Политика конфиденциальности</a></li>
+          <li><a href="contacts.html">Записаться на урок</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>© 2026 ООО «Аккорд». Все права защищены.</span>
+      <span>Сделано в рамках учебного проекта</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/chords.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Цены — музыкальная школа «Аккорд»</title>
+  <meta name="description" content="Стоимость обучения в школе «Аккорд». Пробный урок бесплатно. Абонементы от 6800 рублей.">
+  <meta property="og:title" content="Цены — школа «Аккорд»">
+  <meta property="og:description" content="Пробный урок бесплатно. Абонементы на 4 и 8 уроков.">
+  <meta property="og:image" content="https://example.com/og-prices.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23A03A2F'/><text x='50' y='68' font-size='60' text-anchor='middle' fill='white'>♪</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script src="js/analytics.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><span class="note">♪</span><span>АККОРД<small>музыкальная школа для взрослых</small></span></a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="instruments.html">Инструменты</a></li>
+        <li><a href="teachers.html">Преподаватели</a></li>
+        <li><a href="prices.html" aria-current="page">Цены</a></li>
+        <li><a href="chords.html">5 аккордов</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+    <a href="tel:+79005151551" class="header-phone">+7 (900) 515-15-51</a>
+    <button class="burger" aria-label="Меню" onclick="document.getElementById('mainNav').classList.toggle('open')">☰</button>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="section-title"><h1>Цены</h1><p>Пробный урок — бесплатно</p></div>
+    
+    <div class="grid grid-3" style="margin-bottom:40px">
+      <div class="card">
+        <span class="badge">Старт</span>
+        <h3>Разовый урок</h3>
+        <div class="price">1 900 ₽ <small>/ 55 мин</small></div>
+        <p>Познакомиться с преподавателем и попробовать формат.</p>
+        <button class="btn btn-outline" data-action="select_tariff" data-tariff="single" data-price="1900" data-event="cta_click" data-button-name="tariff_single" data-page-section="prices">Выбрать</button>
+      </div>
+      <div class="card" style="border-color:var(--bordo); box-shadow:0 8px 24px rgba(160,58,47,0.1)">
+        <span class="badge" style="background:var(--bordo); color:#fff">Хит</span>
+        <h3>Абонемент 4 урока</h3>
+        <div class="price">6 800 ₽ <small>/ 1 700 ₽ за урок</small></div>
+        <p>Оптимальный старт, чтобы попробовать и втянуться.</p>
+        <button class="btn btn-primary" data-action="select_tariff" data-tariff="pack4" data-price="6800" data-event="cta_click" data-button-name="tariff_pack4" data-page-section="prices">Выбрать</button>
+      </div>
+      <div class="card">
+        <span class="badge">Выгодно</span>
+        <h3>Абонемент 8 уроков</h3>
+        <div class="price">12 800 ₽ <small>/ 1 600 ₽ за урок</small></div>
+        <p>Для тех, кто настроен серьезно. Экономия 1 600 ₽.</p>
+        <button class="btn btn-outline" data-action="select_tariff" data-tariff="pack8" data-price="12800" data-event="cta_click" data-button-name="tariff_pack8" data-page-section="prices">Выбрать</button>
+      </div>
+    </div>
+
+    <div class="card" style="background:linear-gradient(135deg,var(--dark) 0%,#3a2b26 100%); color:#fff; margin-bottom:40px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px">
+      <div>
+        <span class="badge" style="background:var(--gold); color:var(--dark)">Спецпредложение</span>
+        <h3 style="color:#fff; margin-bottom:8px">Программа «Сыграй песню к Новому году»</h3>
+        <p style="color:#cbbcaa; margin:0">8 уроков + выступление на концерте 27 декабря. 3-4 песни под аккомпанемент.</p>
+      </div>
+      <div style="text-align:right">
+        <div class="price" style="color:var(--gold); margin:0 0 10px">13 900 ₽</div>
+        <a href="contacts.html" class="btn btn-gold" data-event="cta_click" data-button-name="tariff_ny" data-page-section="prices">Записаться</a>
+      </div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Аренда класса</h3>
+        <div class="price">500 ₽ <small>/ час</small></div>
+        <p>Для самостоятельных занятий. Есть все инструменты и комфортная атмосфера.</p>
+        <button class="btn btn-outline" data-event="cta_click" data-button-name="tariff_rent" data-page-section="prices">Забронировать</button>
+      </div>
+      <div class="card">
+        <h3>Прайс-лист</h3>
+        <p>Скачайте полный список всех услуг и цен в формате PDF.</p>
+        <a href="#" class="btn btn-outline" data-event="file_download" data-file-name="price-list.pdf" download>Скачать PDF</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#fff; border-top:1px solid var(--line)">
+  <div class="container" style="max-width: 800px">
+    <div class="section-title"><h2>Частые вопросы</h2></div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" data-q="1">Нужен ли свой инструмент для занятий? <span>+</span></button>
+        <div class="faq-a"><p>Нет, на время урока мы предоставляем инструмент в классе. Для домашних занятий порекомендуем, что купить.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" data-q="2">Я совсем не умею петь/играть. У меня получится? <span>+</span></button>
+        <div class="faq-a"><p>Конечно! 80% наших учеников приходят с нуля. Мы объясняем всё простым языком и не торопим.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" data-q="3">Можно ли перенести урок? <span>+</span></button>
+        <div class="faq-a"><p>Да, вы можете перенести занятие, предупредив администратора не позднее чем за 4 часа до начала.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" data-q="4">Сколько времени нужно заниматься дома? <span>+</span></button>
+        <div class="faq-a"><p>Для хорошего прогресса достаточно 15–20 минут в день. Главное — регулярность.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" data-q="5">Есть ли у вас скидки? <span>+</span></button>
+        <div class="faq-a"><p>Да, выгоднее всего покупать абонементы. Также мы иногда запускаем акции для новых учеников.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" data-q="6">Можно ли заниматься с другом? <span>+</span></button>
+        <div class="faq-a"><p>Наши уроки индивидуальные. Но у нас есть аренда класса, где вы можете заниматься вдвоем самостоятельно.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>АККОРД</h4>
+        <p style="margin:0 0 10px">Музыкальная школа для взрослых с 2022 года.</p>
+        <p style="margin:0">614 106, г. Новоозёрск, ул. Консерваторская, д. 9<br>+7 (900) 515-15-51<br>hello@akkord-school.example</p>
+        <div class="socials">
+          <a href="https://instagram.com" target="_blank" rel="noopener" data-social="instagram" aria-label="Instagram">📷</a>
+          <a href="https://vk.com" target="_blank" rel="noopener" data-social="vk" aria-label="ВКонтакте">🆅</a>
+          <a href="https://t.me" target="_blank" rel="noopener" data-social="telegram" aria-label="Telegram">✈️</a>
+          <a href="https://youtube.com" target="_blank" rel="noopener" data-social="youtube" aria-label="YouTube">▶️</a>
+        </div>
+      </div>
+      <div>
+        <h4>Меню</h4>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="instruments.html">Инструменты</a></li>
+          <li><a href="teachers.html">Преподаватели</a></li>
+          <li><a href="prices.html">Цены</a></li>
+          <li><a href="chords.html">5 аккордов</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Документы</h4>
+        <ul>
+          <li><a href="privacy.html">Политика конфиденциальности</a></li>
+          <li><a href="contacts.html">Записаться на урок</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>© 2026 ООО «Аккорд». Все права защищены.</span>
+      <span>Сделано в рамках учебного проекта</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Скрипт для работы аккордеона FAQ
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.parentElement;
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Спасибо! — музыкальная школа «Аккорд»</title>
+  <meta name="description" content="Ваша заявка успешно принята. Мы свяжемся с вами в ближайшее время.">
+  <meta property="og:title" content="Спасибо! — школа «Аккорд»">
+  <meta property="og:description" content="Заявка принята.">
+  <meta property="og:image" content="https://example.com/og-thanks.jpg">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23A03A2F'/><text x='50' y='68' font-size='60' text-anchor='middle' fill='white'>♪</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script src="js/analytics.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><span class="note">♪</span><span>АККОРД<small>музыкальная школа для взрослых</small></span></a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="instruments.html">Инструменты</a></li>
+        <li><a href="teachers.html">Преподаватели</a></li>
+        <li><a href="prices.html">Цены</a></li>
+        <li><a href="chords.html">5 аккордов</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+    <a href="tel:+79005151551" class="header-phone">+7 (900) 515-15-51</a>
+    <button class="burger" aria-label="Меню" onclick="document.getElementById('mainNav').classList.toggle('open')">☰</button>
+  </div>
+</header>
+
+<div class="container">
+  <div class="center-page">
+    <div class="big-icon">🎉</div>
+    <h1>Заявка принята!</h1>
+    <p style="color:var(--muted); font-size:1.1rem">Спасибо! Мы получили вашу заявку на пробный урок.</p>
+    
+    <div class="thanks-num">Номер заявки: <span id="req-id">...</span></div>
+
+    <p>Администратор свяжется с вами в течение 15 минут в рабочее время, чтобы подтвердить запись и ответить на вопросы.</p>
+
+    <div style="margin-top: 30px; margin-bottom: 30px; background: #fff; padding: 24px; border-radius: 12px; border: 1px solid var(--line); text-align: left;">
+      <h3 style="margin-top:0">Как проходит пробный урок?</h3>
+      <ol class="steps">
+        <li>Знакомимся и обсуждаем ваши цели (5 минут).</li>
+        <li>Преподаватель показывает базовые приемы (20 минут).</li>
+        <li>Вы пробуете играть/петь сами (20 минут).</li>
+        <li>Отвечаем на вопросы и составляем план обучения (10 минут).</li>
+      </ol>
+    </div>
+
+    <p style="margin-bottom: 12px; font-weight: 600;">Пока ждете звонка, подпишитесь на нас:</p>
+    <div class="messenger-btns" style="justify-content: center;">
+      <a href="https://vk.com" target="_blank" rel="noopener" class="btn btn-outline" data-social="vk" data-section="thanks">ВКонтакте</a>
+      <a href="https://t.me" target="_blank" rel="noopener" class="btn btn-outline" data-social="telegram" data-section="thanks">Telegram</a>
+    </div>
+
+    <div style="margin-top: 40px">
+      <a href="index.html" class="btn btn-primary">Вернуться на главную</a>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>АККОРД</h4>
+        <p style="margin:0 0 10px">Музыкальная школа для взрослых с 2022 года.</p>
+        <p style="margin:0">614 106, г. Новоозёрск, ул. Консерваторская, д. 9<br>+7 (900) 515-15-51<br>hello@akkord-school.example</p>
+      </div>
+      <div>
+        <h4>Меню</h4>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="instruments.html">Инструменты</a></li>
+          <li><a href="teachers.html">Преподаватели</a></li>
+          <li><a href="prices.html">Цены</a></li>
+          <li><a href="chords.html">5 аккордов</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Документы</h4>
+        <ul>
+          <li><a href="privacy.html">Политика конфиденциальности</a></li>
+          <li><a href="contacts.html">Записаться на урок</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>© 2026 ООО «Аккорд». Все права защищены.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Показываем номер заявки из URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const id = urlParams.get('id');
+  if (id) {
+    document.getElementById('req-id').textContent = id;
+  } else {
+    document.getElementById('req-id').textContent = 'неизвестен';
+  }
+</script>
+</body>
+</html>

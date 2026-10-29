@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Преподаватели — музыкальная школа «Аккорд»</title>
+  <meta name="description" content="Познакомьтесь с преподавателями школы «Аккорд». Опытные музыканты и педагоги помогут вам с нуля.">
+  <meta property="og:title" content="Преподаватели — школа «Аккорд»">
+  <meta property="og:description" content="12 педагогов, которые сами играют и поют.">
+  <meta property="og:image" content="https://example.com/og-teachers.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23A03A2F'/><text x='50' y='68' font-size='60' text-anchor='middle' fill='white'>♪</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script src="js/analytics.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><span class="note">♪</span><span>АККОРД<small>музыкальная школа для взрослых</small></span></a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="instruments.html">Инструменты</a></li>
+        <li><a href="teachers.html" aria-current="page">Преподаватели</a></li>
+        <li><a href="prices.html">Цены</a></li>
+        <li><a href="chords.html">5 аккордов</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+    <a href="tel:+79005151551" class="header-phone">+7 (900) 515-15-51</a>
+    <button class="burger" aria-label="Меню" onclick="document.getElementById('mainNav').classList.toggle('open')">☰</button>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="section-title"><h1>Преподаватели</h1><p>12 педагогов, которые сами играют и поют</p></div>
+    <div class="grid grid-3">
+      <div class="card teacher">
+        <img src="img/teacher-anna.webp" alt="Преподаватель гитары Анна Смирнова" style="width:84px; height:84px; border-radius:50%; object-fit:cover; margin-bottom:14px;"><h3>Анна Смирнова</h3><div class="role">Гитара, вокал</div>
+        <p>Опыт 8 лет. Поможет взять первый аккорд без боли в пальцах. Играет в кавер-группе.</p>
+        <button class="btn btn-outline" data-action="teacher_view" data-teacher-id="anna" data-instrument="guitar" data-event="cta_click" data-button-name="teacher_anna" data-page-section="teachers">Записаться к Анне</button>
+      </div>
+      <div class="card teacher">
+        <img src="img/teacher-mikhail.jpg" alt="Преподаватель фортепиано Михаил Петров" style="width:84px; height:84px; border-radius:50%; object-fit:cover; margin-bottom:14px;"><h3>Михаил Петров</h3><div class="role">Фортепиано</div>
+        <p>Классика и современные аранжировки. Учит читать ноты и играть по слуху.</p>
+        <button class="btn btn-outline" data-action="teacher_view" data-teacher-id="mikhail" data-instrument="piano" data-event="cta_click" data-button-name="teacher_mikhail" data-page-section="teachers">Записаться к Михаилу</button>
+      </div>
+      <div class="card teacher">
+        <img src="img/teacher-elena.jpg" alt="Преподаватель барабанов Елена Козлова" style="width:84px; height:84px; border-radius:50%; object-fit:cover; margin-bottom:14px;"><h3>Елена Козлова</h3><div class="role">Барабаны</div>
+        <p>Поставит ритм и координацию. Играем под любимые треки. Опыт работы с новичками.</p>
+        <button class="btn btn-outline" data-action="teacher_view" data-teacher-id="elena" data-instrument="drums" data-event="cta_click" data-button-name="teacher_elena" data-page-section="teachers">Записаться к Елене</button>
+      </div>
+      <div class="card teacher">
+        <img src="img/teacher-sergei.jpg" alt="Преподаватель электрогитары Сергей Иванов" style="width:84px; height:84px; border-radius:50%; object-fit:cover; margin-bottom:14px;"><h3>Сергей Иванов</h3><div class="role">Электрогитара</div>
+        <p>Рок, метал, блюз. Поможет настроить звук и освоить первые риффы.</p>
+        <button class="btn btn-outline" data-action="teacher_view" data-teacher-id="sergey" data-instrument="guitar" data-event="cta_click" data-button-name="teacher_sergey" data-page-section="teachers">Записаться к Сергею</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#fff;border-top:1px solid var(--line)">
+  <div class="container" style="text-align:center">
+    <h2>Не знаете, кого выбрать?</h2>
+    <p style="color:var(--muted);max-width:600px;margin:0 auto 20px">Запишитесь на бесплатный пробный урок, и мы подберём преподавателя под ваш уровень и цели.</p>
+    <a href="contacts.html" class="btn btn-gold" data-event="cta_click" data-button-name="teachers_trial" data-page-section="teachers">Записаться на пробный</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>АККОРД</h4>
+        <p style="margin:0 0 10px">Музыкальная школа для взрослых с 2022 года.</p>
+        <p style="margin:0">614 106, г. Новоозёрск, ул. Консерваторская, д. 9<br>+7 (900) 515-15-51<br>hello@akkord-school.example</p>
+        <div class="socials">
+          <a href="https://instagram.com" target="_blank" rel="noopener" data-social="instagram" aria-label="Instagram">📷</a>
+          <a href="https://vk.com" target="_blank" rel="noopener" data-social="vk" aria-label="ВКонтакте">🆅</a>
+          <a href="https://t.me" target="_blank" rel="noopener" data-social="telegram" aria-label="Telegram">✈️</a>
+          <a href="https://youtube.com" target="_blank" rel="noopener" data-social="youtube" aria-label="YouTube">▶️</a>
+        </div>
+      </div>
+      <div>
+        <h4>Меню</h4>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="instruments.html">Инструменты</a></li>
+          <li><a href="teachers.html">Преподаватели</a></li>
+          <li><a href="prices.html">Цены</a></li>
+          <li><a href="chords.html">5 аккордов</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Документы</h4>
+        <ul>
+          <li><a href="privacy.html">Политика конфиденциальности</a></li>
+          <li><a href="contacts.html">Записаться на урок</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>© 2026 ООО «Аккорд». Все права защищены.</span>
+      <span>Сделано в рамках учебного проекта</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
