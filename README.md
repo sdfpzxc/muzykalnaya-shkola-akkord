@@ -25,14 +25,14 @@
 | **🌍 Живой сайт (Vercel)** | **[https://muzykalnaya-shkola-akkord.vercel.app/](https://muzykalnaya-shkola-akkord.vercel.app/)** | ✅ Работает |
 | **📊 Google Таблица (CRM)** | **[Открыть таблицу](https://docs.google.com/spreadsheets/d/1ze-oa8-WpxGMRNj676tqbwHazcXYZAAoaRNMx5L7ZaA/edit)** | ✅ Собирает заявки |
 | **📈 Yandex DataLens (Дашборд)** | **[Открыть дашборд](https://datalens.ru/5fq3m4mxeg98o-akkord-song-by-ny-2026?_share_link=org)** | ✅ Визуализирует |
-| **📱 ВКонтакте (Сообщество)** | **[https://vk.ru/club242705615](https://vk.ru/club242705615)** | ✅ Опубликовано |
-| **✈️ Telegram (Канал)** | **[https://t.me/musicschoolakkord](https://t.me/musicschoolakkord)** | ✅ Опубликовано |
-| **▶️ YouTube (Канал)** | **[https://www.youtube.com/@MusicSchoolAkkord](https://www.youtube.com/@MusicSchoolAkkord)** | ✅ Опубликовано |
-| **📌 Pinterest (Профиль)** | **[https://ru.pinterest.com/musicschoolakkord/](https://ru.pinterest.com/musicschoolakkord/)** | ✅ Опубликовано |
-| **🎬 Telegram-бот (Автоответы)** | **[@akkord_helper_bot](https://t.me/akkord_helper_bot)** | ✅ Настроен |
+| **📱 ВКонтакте (Сообщество)** | **[Короткая ссылка (clck.ru)](https://clck.ru/3WmCH4)** | ✅ Опубликовано |
+| **✈️ Telegram (Канал)** | **[Короткая ссылка (clck.ru)](https://clck.ru/3WmCMa)** | ✅ Опубликовано |
+| **▶️ YouTube (Канал)** | **[Короткая ссылка (clck.ru)](https://clck.ru/3WmCLD)** | ✅ Опубликовано |
+| **📌 Pinterest (Профиль)** | **[Короткая ссылка (clck.ru)](https://clck.ru/3WmCMH)** | ✅ Опубликовано |
+| **🎬 Telegram-бот (Автоответы)** | **[@music_school_akkord_bot](https://t.me/music_school_akkord_bot)** | ✅ Настроен |
 
 *   **ID ресурса GA4:** `G-SXRLS6JNV7`
-*   **Доступ Viewer к GA4 выдан:** `admin@akkord-school.example` (Карпов Никита Дмитриевич)
+*   **Доступ Viewer к GA4 выдан:** `musicschoolakkord@gmail.com` 
 *   **Язык интерфейса:** Русский
 *   **Целевая аудитория:** Взрослые 22–45 лет без музыкального образования.
 
