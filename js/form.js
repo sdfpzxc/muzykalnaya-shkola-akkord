@@ -1,7 +1,7 @@
 /* Форма заявки: отправка без перезагрузки, UTM из sessionStorage (ТЗ 6.3) */
 (function () {
   'use strict';
-  var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyTe__kSpv7ihCB2eQZ6bsJkelguaU9yavk9U7zcHFja7UYrYRep0PltNoUrO43bFw7Gw/exec'; // ← сюда URL веб-приложения Apps Script
+  var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyTe__kSpv7ihCB2eQZ6bsJkelguaU9yavk9U7zcHFja7UYrYRep0PltNoUrO43bFw7Gw/exec'; 
   var form = document.getElementById('lead-form');
   if (!form) return;
 
@@ -56,9 +56,16 @@
     if (!name.value.trim() || name.value.trim().length < 2) {
       setError(name, 'Укажите имя (2–60 символов)'); ok = false;
     }
-    if (!/^\+7\d{10}$/.test(phone.value.replace(/\D/g, '').replace(/^8/, '+7'))) {
-      setError(phone, 'Телефон в формате +7XXXXXXXXXX'); ok = false;
+    
+    // НОВАЯ НАДЕЖНАЯ ПРОВЕРКА ТЕЛЕФОНА
+    var digits = phone.value.replace(/\D/g, '');
+    if (digits.charAt(0) === '8') digits = '7' + digits.slice(1);
+    if (digits.charAt(0) !== '7') digits = '7' + digits;
+    
+    if (digits.length !== 11) {
+      setError(phone, 'Введите корректный номер (11 цифр)'); ok = false;
     }
+
     if (email.value && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email.value)) {
       setError(email, 'Проверьте e-mail'); ok = false;
     }
