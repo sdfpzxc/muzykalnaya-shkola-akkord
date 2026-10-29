@@ -1,7 +1,7 @@
 /* Форма заявки: отправка без перезагрузки, UTM из sessionStorage (ТЗ 6.3) */
 (function () {
   'use strict';
-  var SCRIPT_URL = ''; // ← сюда URL веб-приложения Apps Script
+  var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyTe__kSpv7ihCB2eQZ6bsJkelguaU9yavk9U7zcHFja7UYrYRep0PltNoUrO43bFw7Gw/exec'; // ← сюда URL веб-приложения Apps Script
   var form = document.getElementById('lead-form');
   if (!form) return;
 
