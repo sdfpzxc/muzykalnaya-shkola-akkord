@@ -20,7 +20,7 @@
 | **▶️ YouTube** | **[https://www.youtube.com/@MusicSchoolAkkord](https://www.youtube.com/@MusicSchoolAkkord)** |
 | **📌 Pinterest** | **[https://ru.pinterest.com/musicschoolakkord/](https://ru.pinterest.com/musicschoolakkord/)** |
 | **📄 Описание работы** | **[docs/report.md](docs/report.md)** |
-| **📊 Презентация к защите** | **[docs/afisha.pdf](docs/afisha.pdf)** |
+| **📊 Презентация к защите** | **[presentation/zashchita.pdf](presentation/zashchita.pdf)** |
 
 **Ресурс GA4:** `G-SXRLS6JNV7`. 
 **Доступ Viewer к ресурсу GA4 выдан:** `admin@akkord-school.example` (Карпов Никита Дмитриевич, Telegram @akkord_admin).
