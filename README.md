@@ -20,7 +20,7 @@
 | **▶️ YouTube** | **[https://www.youtube.com/@MusicSchoolAkkord](https://www.youtube.com/@MusicSchoolAkkord)** |
 | **📌 Pinterest** | **[https://ru.pinterest.com/musicschoolakkord/](https://ru.pinterest.com/musicschoolakkord/)** |
 | **📄 Описание работы** | **[docs/report.md](docs/report.md)** |
-| **📊 Презентация к защите** | *(ссылка на PDF, если есть; если нет — файл отсутствует)* |
+| **📊 Презентация к защите** | **[docs/afisha.pdf](docs/afisha.pdf)** |
 
 **Ресурс GA4:** `G-SXRLS6JNV7`. 
 **Доступ Viewer к ресурсу GA4 выдан:** `admin@akkord-school.example` (Карпов Никита Дмитриевич, Telegram @akkord_admin).
@@ -85,12 +85,14 @@ tz-15-muzykalnaya-shkola-akkord/
 │   ├── utm.csv         # Реестр UTM-ссылок
 │   ├── images.md       # Источники изображений
 │   ├── report.md       # Аналитическая записка
+│   ├── kursovaya.md    # Бланк сдачи
 │   ├── opisanie.md     # Описание работы (если есть)
 │   ├── scheme.png      # Схема работы
 │   ├── afisha.pdf      # Афиша с QR-кодом
 │   └── qr-u-12.png     # QR-код
 │
 ├── screens/            # Скриншоты
+│   ├── blogers/        # Скриншоты Блогеров
 │   ├── ga4/            # Скриншоты DebugView
 │   ├── utm/            # Скриншоты переходов по UTM-ссылкам
 │   ├── telegram/       # Скриншоты автоответов бота
